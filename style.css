@@ -1,0 +1,265 @@
+.all {
+    margin-right: 450px;
+    margin-left: 450px;
+    color: #ababab;
+}
+
+.menu {
+    display: inline;
+    margin-left: 20px;
+    color: #ababab;
+    font-size: 16px;
+}
+
+#logo_complet {
+    height: 50px;
+    margin-left: 450px;
+}
+
+header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: white;
+    height: 70px;
+    z-index: 3;
+}
+
+#main_menu {
+    margin-left: auto;
+    margin-right: 450px;
+}
+
+#logo_incomplet {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+h1 {
+    color: #00b39b;
+    text-align: center;
+}
+
+#articles {
+    margin-top: 60px;
+    display: flex;
+    font-size: 17px;
+    word-spacing: 2px;
+}
+
+.article_main {
+    margin-right: 20px;
+}
+
+#Visit_main {
+    display: flex;
+    margin-top: 98px;
+    height: 395px;
+    width: 100%;
+}
+
+.p_Visit_main {
+    color: white;
+    font-size: 27px;
+    letter-spacing: 0.3px;
+    margin-left: 42px;
+}
+
+.img2_Visit_main {
+    margin-left: 200px;
+    width: 80%;
+    height: 250px;
+}
+
+#second_part1_Visit_main {
+    display: flex;
+}
+
+.img1_Visit_main {
+    margin-top: 0px;
+    margin-left: ;
+    width: 80%;
+    height: 250px;
+}
+
+.selector_part1_visit_main {
+    margin-left: 42px;
+    height: 40px;
+    width: 170px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#part1_Visit_main {
+    background: #00ccb1;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 0px;
+}
+
+#part2_Visit_main {
+    background: #3d83df;
+    border-radius: 20px;
+}
+
+h2 {
+    color: hsla(0, 0%, 100%, .7);
+    font-size: 12px;
+    margin-left: 42px;
+}
+
+#Local_Culture {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#culture {
+    color: #00b39b;
+    font-size: 27px;
+    margin-right: 90px;
+}
+
+#links_1,
+#links_2,
+#links_3,
+#links_4,
+#links_5 {
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+#main2 {
+    background: #D5FCF2;
+    left: 0;
+    right: 0;
+    margin-right: 0;
+    margin-left: 0;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 50px 50px 50px 100px 100px 100px 25px 25px 25px 50px 100px 12px 12px 50px 25px 25px 50px 100px 50px 50px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 25px 25px 50px 50px 50px 1px 12px 25px 25px 12px 12px 12px 12px 12px 12px 25px 25px 25px 50px 50px 25px 25px 50px 50px 25px 25px 50px;
+}
+
+#main2_head {
+    font-size: 37px;
+    color: #00b39b;
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 2;
+    grid-row-end: 6;
+}
+
+#main2_head_des {
+    grid-column-start: 6;
+    grid-column-end: 12;
+    grid-row-start: 6;
+    grid-row-end: 11;
+    font-size: 15 px;
+    color: #747474;
+    letter-spacing: 0;
+    word-spacing: 0;
+}
+
+#main2_box1 {
+    grid-column-start: 14;
+    grid-column-end: 19;
+    grid-row-start: 3;
+    grid-row-end: 13;
+    background: white;
+    border-radius: 7px;
+}
+
+#main2_box2 {
+    grid-column-start: 20;
+    grid-column-end: 24;
+    grid-row-start: 2;
+    grid-row-end: 11;
+    background: white;
+    border-radius: 7px;
+}
+
+#main2_box3 {
+    grid-column-start: 14;
+    grid-column-end: 19;
+    grid-row-start: 15;
+    grid-row-end: 23;
+    background: white;
+    border-radius: 7px;
+}
+
+#main2_box4 {
+    grid-column-start: 20;
+    grid-column-end: 24;
+    grid-row-start: 13;
+    grid-row-end: 22;
+    background: white;
+    border-radius: 7px;
+}
+
+#offices_main {
+    margin-right: 450px;
+    margin-left: 450px;
+}
+
+#main3_head {
+    text-align: center;
+    color: #00b39b;
+    font-size: 27px;
+    letter-spacing: 1px;
+}
+
+#article_main3 {
+    text-align: center;
+    color: #ababab;
+}
+
+#offices_main_boxes_container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+.offices_main_boxes {
+    width: 300px;
+    height: 150px;
+    margin-bottom: 200px;
+}
+
+.img_offices_main_boxes {
+    border-radius: 7px;
+}
+
+#mexico_city {
+    margin-left: 0px;
+}
+
+footer {
+    margin-top: 50px;
+    color: #ababab;
+}
+
+a {
+    text-decoration: none;
+    color: #4782db;
+}
+
+.openings_offices_main_boxes_container {
+    margin-left: 140px;
+    background: #3d83df;
+    color: white;
+    font-size: 12px;
+    height: 20px;
+    width: 100px;
+    padding-top: 7px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.hello {
+    display: flex;
+}
